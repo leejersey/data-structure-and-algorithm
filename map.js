@@ -18,5 +18,17 @@ const twoSum = function(nums, target) {
   }
 }
 
+// es6 map
+const twoSum1 = function(nums, target) {
+  const map = new Map();
+  for(let i = 0; i<nums.length;i++){
+    const diff = target - nums[i];
+    if (map.has(diff)) {
+      return [map.get(diff), i];
+    }
+    map.set(nums[i], i);
+  }
+}
+
 const res = twoSum(nums, 9);
 console.log(res);

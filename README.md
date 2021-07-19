@@ -1,2 +1,7 @@
-# data-structure-and-algorithm
-study data structure and algorithm
+# 数据结构和算法
+
+## 目录
+1. 常用数据结构
+2. 常用算法
+3. 收集算法题
+4. letcode算法
